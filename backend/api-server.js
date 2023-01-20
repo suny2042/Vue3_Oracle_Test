@@ -14,7 +14,7 @@ app.get('/api/memos', async (req, res) => {
   res.send(result);
 });
 
-// Insert
+// Insert  
 app.post('/api/memos', async (req, res) => {
   console.log('입력한 값:');
   console.log(req.body.content);
